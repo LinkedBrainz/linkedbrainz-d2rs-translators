@@ -102,13 +102,13 @@ public class Utils
 		if (uri.getQuery() != null)
 		{
 			// use the URI query part
-			tempUri = tempUri + uri.getQuery();
+			tempUri = tempUri + "?" + uri.getQuery();
 		}
 
 		if (uri.getFragment() != null)
 		{
 			// use the URI fragment id
-			tempUri = tempUri + uri.getFragment();
+			tempUri = tempUri + "#" + uri.getFragment();
 		}
 
 		// System.out.println("[EXEC]  transformed URI: " + tempUri);
