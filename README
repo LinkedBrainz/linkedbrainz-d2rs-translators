@@ -1,4 +1,4 @@
-A continuum of Barry Norton's D2Rs LinkedBrainz fork [1] and kurtjx's D2Rs LinkedBrainz fork [3] that includes the LinkedBrainz [4] related Translator classes. The code base is now embedded in a maven [5] project and the dependencies are imported as much as possible over the maven mechanism. D2RS must be added manually to the local maven repository, because this jar is not available via an online maven repository ATM. A maven project of (a slightly modified) D2RS can be found at [6].
+A continuum of Barry Norton's D2RS [3,7] LinkedBrainz fork [1] and kurtjx's D2RS LinkedBrainz fork [2] that only includes the LinkedBrainz [4] related Translator classes. The code base is now embedded in a maven [5] project and the dependencies are imported as much as possible over the maven mechanism. D2RS must be added manually to the local maven repository, because this jar is not available via an online maven repository ATM. A maven project of (a slightly modified) D2RQ can be found at [6] (see also [7] for the original code base).
 The generated JAR file can be copied in the 'lib' folder of your D2R-LinkedBrainz [1,2] installation (it would probably replace the existing version of the D2RS-LinkeBrainz jar; otherwise you have to remove the existing D2RS-LinkedBrainz jar before). The version of this project will be occasionally pushed to [1] as well.
 
 [1] https://github.com/BarryNorton/D2R-LinkedBrainz-Fork
@@ -6,4 +6,5 @@ The generated JAR file can be copied in the 'lib' folder of your D2R-LinkedBrain
 [3] http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/
 [4] http://linkedbrainz.c4dmpresents.org/
 [5] http://maven.apache.org/
-[6] https://github.com/zazi/D2RS-LinkedBrainz
+[6] https://github.com/zazi/D2RQ-maven
+[7] https://github.com/cygri/d2rq
