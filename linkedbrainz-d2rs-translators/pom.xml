@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>linkedbrainz.d2rs</groupId>
+  <artifactId>translator</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>linkedbrainz-d2rs-translators</name>
+  <description>The LinkedBrainz related Translator classes for D2RS. See also http://github.com/cygri/d2rq</description>
+  <url>http://linkedbrainz.c4dmpresents.org/</url>
+
+  <dependencyManagement>
+  	<dependencies>
+  	</dependencies>
+  </dependencyManagement>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <developers>
+  	<developer>
+  		<id>zazi</id>
+  		<name>Bob Ferris</name>
+  		<url>http://smiy.org/author/zazi0815/</url>
+  		<organization>SMI</organization>
+  		<organizationUrl>http://smiy.org</organizationUrl>
+  	</developer>
+  </developers>
+  <organization>
+  	<name>C4DM</name>
+  	<url>http://www.elec.qmul.ac.uk/digitalmusic/</url>
+  </organization>
+  <dependencies>
+  	<dependency>
+  		<groupId>de.fuberlin.wiwiss</groupId>
+  		<artifactId>d2rq</artifactId>
+  		<version>0.7-maven</version>
+  		<type>jar</type>
+  		<scope>compile</scope>
+  	</dependency>
+  </dependencies>
+</project>
