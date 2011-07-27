@@ -4,7 +4,7 @@
 
   <groupId>linkedbrainz.d2rs</groupId>
   <artifactId>translator</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>linkedbrainz-d2rs-translators</name>
@@ -36,7 +36,7 @@
   	<dependency>
   		<groupId>de.fuberlin.wiwiss</groupId>
   		<artifactId>d2rq</artifactId>
-  		<version>0.7-maven</version>
+  		<version>0.8-maven</version>
   		<type>jar</type>
   		<scope>compile</scope>
   	</dependency>
